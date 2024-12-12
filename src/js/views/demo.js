@@ -15,7 +15,7 @@ export const Demo = () => {
 					return (
 						<li
 							key={index}
-							className="list-group-item d-flex justify-content-between"
+							className="list-group-item d-flex justify-content-between "
 							style={{ background: item.background }}>
 							<Link to={"/single/" + index}>
 								<span>Link to: {item.title}</span>
@@ -34,7 +34,7 @@ export const Demo = () => {
 					);
 				})}
 			</ul>
-			<br />
+			<br/>
 			<Link to="/">
 				<button className="btn btn-primary">Back home</button>
 			</Link>
